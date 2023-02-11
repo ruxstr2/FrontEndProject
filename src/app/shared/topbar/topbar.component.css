@@ -1,0 +1,23 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px #0000004d;
+  padding: 20px;
+}
+.topbar .navigation ul {
+  list-style: none;
+}
+.topbar .navigation ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.topbar .navigation ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #333333;
+}
+.topbar .navigation ul li a:hover,
+.topbar .navigation ul li a:active,
+.topbar .navigation ul li a:focus {
+  color: #777777;
+}
